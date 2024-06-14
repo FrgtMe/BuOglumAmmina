@@ -93,7 +93,7 @@ def ultroid_cmd(
             chat = ult.chat
             if hasattr(chat, "title"):
                 if (
-                    "#noub" in chat.title.lower()
+                    "#UltroidIsBabapiro" in chat.title.lower()
                     and not (chat.admin_rights or chat.creator)
                     and not (ult.sender_id in DEVLIST)
                 ):
